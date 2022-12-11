@@ -1,0 +1,3 @@
+I've converted them to Sprite(2D and UI) so it generated the .meta file.
+
+Copy the .meta file too when you take the .png file

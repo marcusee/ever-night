@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b3e770f2b6402409750361cc419c2f, type: 3}
+  m_Name: Vampire
+  m_EditorClassIdentifier: 
+  UnitName: Vampire
+  HP: 0
+  currentHP: 0
+  IconID: 4
+  HP_MIN: 15
+  HP_MAX: 60
+  elementType: 4
+  Amplifier:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  spells:
+  - {fileID: 11400000, guid: b18c91295d0f7e14996eb6201bfd7588, type: 2}
+  - {fileID: 11400000, guid: fd841456a0d1a6f44bddb8634c9724e6, type: 2}
+  level: 1

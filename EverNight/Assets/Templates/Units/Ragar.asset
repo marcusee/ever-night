@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b3e770f2b6402409750361cc419c2f, type: 3}
+  m_Name: Ragar
+  m_EditorClassIdentifier: 
+  UnitName: Rahgar
+  HP: 125
+  currentHP: 125
+  IconID: 0
+  HP_MIN: 125
+  HP_MAX: 125
+  elementType: 0
+  Amplifier:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  spells:
+  - {fileID: 11400000, guid: 082c1c8a3830da140a76fe2c11edfb7a, type: 2}
+  - {fileID: 11400000, guid: aa9440cd26bffe144a755609c3c93686, type: 2}
+  - {fileID: 11400000, guid: 56b1df04ee905774ebfe5cdeb7d07eb0, type: 2}
+  - {fileID: 11400000, guid: 8be93b2a54599cf4d97c8ffa23e07169, type: 2}
+  level: 10
